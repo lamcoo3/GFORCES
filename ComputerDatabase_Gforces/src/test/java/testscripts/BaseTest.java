@@ -38,8 +38,8 @@ public class BaseTest {
         Assert.assertEquals(computerDatabase.nextArrow.getText(), dataOfComputerDatabase.NEXTARROW);
     }
 
-//    @AfterMethod
-//    public void tearDownMethod() {
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void tearDownMethod() {
+        driver.quit();
+    }
 }
